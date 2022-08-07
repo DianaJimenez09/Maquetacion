@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 1px;
+  padding: 1px;
+}
+
+.padre {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  /* align-content: flex flex-end; */
+  gap: 10%;
+  border: 3px solid rgb(150, 154, 151);
+  height: 100%;
+  width: 100%;
+}
+
+.padre1 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: space-around;
+  border: solid rgb(135, 194, 137);
+}
+
+.hijo1 {
+  height: 100px;
+}
+
+.padre2 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: flex-start;
+  border: 3px solid rgb(242, 179, 179);
+}
+
+.hijo2 {
+  height: 70px;
+}
+
+.padre3 {
+  justify-content: flex-start;
+  align-content: flex-start;
+  flex-direction: column;
+  /* flex-flow: column; */
+  border: 2px solid rgba(37, 37, 239, 0.829);
+  width: 66%;
+}
+
+.hijo3 {
+  height: 680px;
+}
+.hijo3_0 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: baseline;
+  align-content: flex-start;
+  border: 2px solid rgb(93, 145, 93);
+}
+
+.padre4 {
+  justify-content: flex-end;
+  /* align-content: flex-end; */
+  flex-direction: row-reverse;
+  border: 2px solid orange;
+  width: 30%;
+}
+
+.hijo4 {
+  height: 100px;
+}
+
+.padre5 {
+  justify-content: center;
+  flex-direction: row;
+  border: 2px solid yellowgreen;
+}
