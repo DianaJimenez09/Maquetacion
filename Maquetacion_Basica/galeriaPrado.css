@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+.padrePadre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  padding-left: 5px;
+  padding-bottom: 10px;
+  background-image: url(https://content3.cdnprado.net/imagenes/Documentos/imgsem/07/07bf/07bf049a-aaf4-4181-a64c-f193b691eb17/c034c147-3b75-4e33-896e-e9a7765b25c0.jpg);
+  background-size: cover;
+}
+
+.padreHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.859);
+  font-family: "Times New Roman", Times, serif;
+  font-size: x-large;
+  padding-top: 80px;
+  padding-left: 5px;
+  padding-bottom: 10px;
+}
+
+.headerLink {
+  display: flex;
+  justify-content: center;
+  text-decoration: solid;
+  color: blue;
+}
+
+.h1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.padreArticle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+  flex-wrap: wrap;
+  gap: 15%;
+}
+
+.article_img {
+  width: 35%;
+  height: 35%;
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  gap: 15%;
+}

@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+.padrePadre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  padding-left: 5px;
+  padding-bottom: 10px;
+  background-image: url(https://media.revistaad.es/photos/60c7443971e311d46c28dfff/master/w_1600%2Cc_limit/198049.jpg);
+  background-size: cover;
+}
+
+.padreHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  color: rgba(31, 14, 30, 0.996);
+  padding-top: 80px;
+  padding-left: 5px;
+  padding-bottom: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: x-large;
+  background-color: rgba(255, 255, 255, 0.046);
+}
+
+.headerLink {
+  display: flex;
+  justify-content: center;
+  text-decoration: solid;
+  color: blue;
+}
+
+.h1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.padreArticle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+  flex-wrap: wrap;
+  gap: 15%;
+  background-color: rgba(46, 45, 43, 0.452);
+}
+
+.article_img {
+  width: 35%;
+  height: 35%;
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  gap: 15%;
+}

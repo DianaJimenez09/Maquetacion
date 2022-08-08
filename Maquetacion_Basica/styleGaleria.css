@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+.padrePadre {
+  width: 100%;
+  height: 100vh;
+  padding-top: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  background-image: url(https://astelus.com/wp-content/viajes/vista-nocturna-del-templo-de-debod.jpg);
+}
+
+.padreHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.755);
+  font-family: sans-serif;
+  font-size: x-large;
+  padding-top: 15px;
+  padding-left: 5px;
+  padding-bottom: 10px;
+}
+
+.padreNav {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.navEnlace {
+  width: 300px;
+  height: 150px;
+  background-color: rgba(105, 21, 21, 0.315);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(95, 75, 50, 0.898);
+}
+
+.navEnlace:hover {
+  background-color: rgba(215, 124, 75, 0.305);
+}
+
+.navEnlace:active {
+  background-color: rgba(149, 59, 153, 0.181);
+}
