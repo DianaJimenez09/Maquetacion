@@ -1,0 +1,90 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.padreBody {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: "Open Sans", sans-serif;
+  background: #000
+    url("https://static.vecteezy.com/system/resources/previews/002/282/910/non_2x/elegant-white-background-free-vector.jpg");
+  background-attachment: fixed;
+}
+
+.padreHeader {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(251, 251, 251, 0.7);
+  width: 100%;
+}
+
+header {
+  width: 66%;
+  padding: 50px 0;
+}
+
+header .menu a {
+  color: rgba(88, 80, 80, 0.885);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+header .menu a:hover {
+  text-decoration: underline;
+}
+
+.main {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: rgba(251, 251, 251, 0.7);
+  margin-left: 60px;
+  padding: 20px;
+  width: 60%;
+}
+
+.main article h2 {
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.main article p {
+  font-size: 18px;
+  line-height: 27px;
+}
+
+aside {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 35%;
+  padding: 20px;
+  margin-top: 0px;
+  background-color: rgba(90, 90, 90, 0.881);
+  color: rgb(226, 221, 221);
+}
+.aptitudes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.aptitudes2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.redes-sociales {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
