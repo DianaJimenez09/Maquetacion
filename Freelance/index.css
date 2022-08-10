@@ -40,6 +40,7 @@ body {
   flex-direction: column-reverse;
   justify-content: flex-start;
   align-items: flex-start;
+  position: fixed;
 }
 
 header a {
@@ -225,7 +226,7 @@ footer {
   width: 40px;
   height: 40px;
 }
-.rrss__img {
+.rrss__icon {
   width: 40px;
   height: 40px;
 }
