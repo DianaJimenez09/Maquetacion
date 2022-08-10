@@ -47,7 +47,7 @@ header a {
   justify-content: flex-start;
   align-items: center;
   background-image: url(./imagenes/codenotch.png);
-  position: static;
+  position: fixed;
 }
 
 .entrada {
