@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  background-image: url("/imatges/vacances.jpeg");
+  background-size: cover;
+}
+.tittle {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Rock Salt", cursive;
+  color: rgba(236, 231, 226, 198);
+  background-color: rgba(49, 149, 179, 0.041);
+  font-size: 100px;
+  background-size: contain;
+}
+
+.subtittle {
+  display: flex;
+  font-family: "Caveat", cursive;
+  /* margin-top: 10%; */
+  font-size: 80px;
+  margin-top: 15%;
+  display: flex;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.863);
+  background-color: rgba(87, 227, 202, 0.062);
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  font-family: "Source Sans Pro", sans-serif;
+}
