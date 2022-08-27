@@ -24,6 +24,13 @@
       href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Merriweather:ital,wght@1,700&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="style.css" />
 
     <title>Vacances</title>
@@ -34,11 +41,60 @@
 
       <h2 class="subtittle">Treat your self this bank holiday.</h2>
     </header>
+    <article class="header_description">
+      <p class="description">
+        FindOut was born a few years ago for those people who appreciate their
+        time and just need get a few (or a lot of) miles away from home to take
+        a breath🍹.
+      </p>
+    </article>
+    <article>
+      <h1 class="description_b">FLIGHT TO...</h1>
+      <div class="container_1">
+        <div class="velo"></div>
+      </div>
+      <div class="container_lugares">
+        <a class="lugar_canarias">Canary Island</a>
+        <a class="lugar_mallorca">Mallorca</a>
+        <a class="lugar_cerdenya">Cerdenya</a>
+      </div>
+    </article>
+    <article id="formulario">
+      <h2 class="tittle_form">
+        Not sure where to go? Let us help you, fill in this form:
+      </h2>
+      <div class="form_input">
+        <form class="form_body" action="">
+          <input type="text" id="name" placeholder="Name" />
+          <input type="email" id="email" placeholder="Email" />
+          <input
+            type="depature"
+            id="departure"
+            placeholder="Departure Airport"
+          />
+          <input
+            type="destination"
+            id="destination"
+            placeholder="Destination"
+          />
+          <input
+            type="departure_date"
+            id="departure_date"
+            placeholder="Departure Date"
+          />
+          <input type="duration" id="duration" placeholder="Duration" />
+          <input type="guest" id="guest" placeholder="guest" />
 
-    <p class="description">
-      FindOut was born a few years ago for those people who appreciate their
-      time and just need get away a few (or a lot of) miles from home to take a
-      breath.
-    </p>
+          <button class="btn" onclick="info()" type="reset">
+            Request info
+          </button>
+          <button class="btn" onclick="filter()" type="reset">Filter</button>
+        </form>
+      </div>
+    </article>
+
+    <footer></footer>
+
+    <script src="./main.js"></script>
   </body>
 </html>
